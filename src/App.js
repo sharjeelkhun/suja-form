@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Suja form 2
+          Suja Driving School Form
         </a>
       </header>
     </div>
