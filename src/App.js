@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './images/favicon-suja.png';
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Suja Driving School Form
+          Bookings - Suja Driving School
         </a>
       </header>
     </div>
