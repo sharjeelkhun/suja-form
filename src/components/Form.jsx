@@ -7,6 +7,7 @@ const Form = () =>{
     return(
 <form>
       <div className="space-y-12 mx-auto max-w-5xl p-10 pb-0">
+      <hr/>
             <div className="border-b border-gray-900/10 pb-12">
             <h2 className="text-base font-semibold lg:text-3xl leading-7 text-gray-900 text-center">Let's pass you fast. Where would you like your lessons to start?</h2>
 
@@ -22,12 +23,12 @@ const Form = () =>{
             
         <div className="mt-6 flex items-center justify-end gap-x-6  max-w-5xl pb-10">
             <button type="button" className="text-sm font-semibold px-4 py-4 leading-6 text-gray-900">Back</button>
-            <button type="submit" className="rounded-md bg-indigo-600 px-12 py-4 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >Continue <span aria-hidden="true">&rarr;</span></button>
+            <button type="submit" className="bg-red-700 hover:bg-red-600 hover:text-white rounded-md bg-indigo-600 px-12 py-4 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >Continue <span class="" aria-hidden="true">&rarr;</span></button>
         </div>
 
 
-        <div class="p-4 grid lg:grid-cols-3">
+        <div class="p-4 justify-center gap-5 grid lg:grid-cols-3">
                     <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
                     <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-6 w-6 text-gray-600 group-hover:text-indigo-600">
@@ -63,7 +64,6 @@ const Form = () =>{
                     </div>
                     </div>
         </div> 
-
 
     </div>
 
