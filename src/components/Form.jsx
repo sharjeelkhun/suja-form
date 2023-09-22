@@ -59,8 +59,7 @@ const Form = () =>{
                         </svg>
                     </div>
                     <div class="flex-auto">
-                        <a href="#" class="block font-semibold text-gray-900">Support at every step <span class="absolute inset-0"></span>
-                        </a>
+                <a href="#" class="block font-semibold text-gray-900">Support at every step <span class="absolute inset-0"></span> </a>
                     </div>
                     </div>
         </div> 
