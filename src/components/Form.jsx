@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from 'react'
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 
 
 const Form = () =>{ 
