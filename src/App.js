@@ -2,8 +2,7 @@
 
 const App = () =>{ 
   
-  return 
-  (
+  return   (
     <div>
       
     </div>    

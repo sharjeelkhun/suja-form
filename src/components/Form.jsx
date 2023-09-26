@@ -1,11 +1,9 @@
 import React, { Fragment, useState } from 'react'
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
-
 
 const Form = () =>{ 
   
-    return(
-<form>
+ return(
+  <form>
       <div className="space-y-12 mx-auto max-w-5xl p-10 pb-0">
       <hr/>
             <div className="border-b border-gray-900/10 pb-12">
@@ -47,8 +45,7 @@ const Form = () =>{
                         </svg>
                     </div>
                     <div class="flex-auto">
-                        <a href="#" class="block font-semibold text-gray-900">Support at every step <span class="absolute inset-0"></span>
-                        </a>
+                <a href="#" class="block font-semibold text-gray-900">Support at every step <span class="absolute inset-0"></span> </a>
                     </div>
                     </div>
                     <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
