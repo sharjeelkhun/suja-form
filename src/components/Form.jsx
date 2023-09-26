@@ -22,25 +22,13 @@ const Form = () =>{
             </div>
             
         <div className="mt-6 flex items-center justify-end gap-x-6  max-w-5xl pb-10">
-            <button type="button" className="text-sm font-semibold px-4 py-4 leading-6 text-gray-900">Back</button>
+            <button type="button" className="text-sm font-semibold px-4 py-4 leading-6 text-gray-900">Back to webite</button>
             <button type="submit" className="bg-red-700 hover:bg-red-600 hover:text-white rounded-md bg-indigo-600 px-12 py-4 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >Continue <span class="" aria-hidden="true">&rarr;</span></button>
+            >Continue<span class="" aria-hidden="true"> &rarr;</span></button>
         </div>
 
 
         <div class="p-4 justify-center gap-5 grid lg:grid-cols-3">
-                    <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
-                    <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-6 w-6 text-gray-600 group-hover:text-indigo-600">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z"></path>
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z"></path>
-                        </svg>
-                    </div>
-                    <div class="flex-auto">
-                        <a href="#" class="block font-semibold text-gray-900">100% Money Back Guarantee <span class="absolute inset-0"></span>
-                        </a>
-                    </div>
-                    </div>
                     <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
                     <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-6 w-6 text-gray-600 group-hover:text-indigo-600">
@@ -60,6 +48,18 @@ const Form = () =>{
                     </div>
                     <div class="flex-auto">
                         <a href="#" class="block font-semibold text-gray-900">Support at every step <span class="absolute inset-0"></span>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+                    <div class="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="h-6 w-6 text-gray-600 group-hover:text-indigo-600">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-auto">
+                        <a href="#" class="block font-semibold text-gray-900">100% Money Back Guarantee <span class="absolute inset-0"></span>
                         </a>
                     </div>
                     </div>
